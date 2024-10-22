@@ -1,0 +1,36 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <input type="checkbox" id="menu-toggle" />
+    
+    <label class="hamburger" for="menu-toggle">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </label>
+    <div class="menu">
+    <p id="planets-info-btn">sidebar Info</p>
+    <p id="creator-btn">Others</p>
+</div>
+
+<div id="planets-info" class="overlay">
+    <p> Sidebar Info Content</p>
+    <p>hello :)</p>
+    <p id="exit-planets-info" class="exit"><--- Exit</p>
+</div>
+
+<div id="creator-section" class="overlay">
+    <p>Other Info</p>
+    <p id="exit-creator" class="exit"><--- Exit</p>
+</div>
+</body>
+</html>
